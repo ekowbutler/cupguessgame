@@ -10,13 +10,13 @@ def game_set():
 # Shuffling empty cups
 def shuffle_game_set(game_cups):
     shuffle(game_cups)
-    return game_cups  # Not necessary, but keeping it explicit
+    return game_cups
 
 
 # User guess function
 def user_guess():
     user_input = input("Guess position of ball [0,1,2]: ")
-    return int(user_input)  # Convert input to integer
+    return int(user_input)
 
 
 # Main game function
